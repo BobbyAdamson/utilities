@@ -1,0 +1,28 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BasicMathUtils.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "cleanup": "rm -R ./node_modules; npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobbyAdamson/utilities.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BobbyAdamson/utilities/issues"
+  },
+  "homepage": "https://github.com/BobbyAdamson/utilities#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.2"
+  }
+}
