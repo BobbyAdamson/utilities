@@ -86,13 +86,10 @@ class Timer {
     render() {
         const 
             timeString = this.TimeString,
-            template = `
-                <div class="xTimerContainer">
-                    <p class="xMeta xMetaCountdown"><span class="xMetaLabel">Countdown:</span><span class="quizTimer xMetaValue">${timeString}</span></p>
-                </div>`,
+            template = `<p>${timeString}</p>`,
             container = document.createElement('div');
-
-        container.classList.add('xQuizHeader');
+        
+        container.classList.add('timer');
         container.innerHTML = template;
 
         return container;
